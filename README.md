@@ -25,7 +25,7 @@ tar -xvf latest.tar.gz
 yum-builddep rpmbuild/SPECS/nginx.spec
 
 
-В секцию %build вставляем:
+В nginx.spec в секцию %build вставляем:
 
 --with-openssl=/home/ec2-user/openssl-1.1.1g
 
