@@ -1,8 +1,8 @@
 # otus-5th-homework
 ##  Управление пакетами. Дистрибьюция софта 
-Устанавливаем пакеты:
+Устанавливаем необходимые пакеты:
 
-redhat-lsb-core wget rpmdevtools rpm-build createrepo yum-utils
+yum install redhat-lsb-core wget rpmdevtools rpm-build createrepo yum-utils
 
 Загружаем пакет с исходниками NGINX:
 
